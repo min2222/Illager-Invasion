@@ -1,0 +1,17 @@
+{
+	"name": "illagerinvasion:sorcerer_hut",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "illagerinvasion:sorcerer_hut/sorcerer_hut",
+        "processors": {
+          "processors": []
+        },
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

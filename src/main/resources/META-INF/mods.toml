@@ -1,0 +1,32 @@
+modLoader = "javafml"
+loaderVersion = "[43,)"
+license = "MIT"
+issueTrackerURL = ""
+
+[[mods]]
+modId = "illagerinvasion"
+version = "1.0.0"
+displayName = "Illager Invasion"
+itemIcon = ""
+displayURL = ""
+logoFile = "mod_banner.png"
+authors = "min01"
+description = ''''''
+
+# order forge to load before us so we can properly replace the milk texture
+[[dependencies.illagerinvasion]]
+modId = "forge"
+mandatory = true
+versionRange = "[43.2.0,)"
+ordering = "BEFORE"
+side = "BOTH"
+
+[[dependencies.illagerinvasion]]
+modId = "puzzleslib"
+mandatory = true
+versionRange = "[4.4.3,)"
+ordering = "NONE"
+side = "BOTH"
+
+[modproperties.illagerinvasion]
+catalogueImageIcon = "mod_logo.png"
